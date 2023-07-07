@@ -166,6 +166,14 @@ padding: 20px;
   text-align: center;
 }
 
+.singleimg{
+  text-align: center;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
+}
 
 .authorimg{
 text-align: center;
@@ -286,6 +294,7 @@ clear: both;
 }
 
 
+
 .social-icons{
   text-align: center;
 }
@@ -377,6 +386,17 @@ background-color: #E1E9EE;
   padding-right: 40px;
 }
 
+.singleimg {
+  width: 20%;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+  .singleimg{
+    width: 40%;
+  }
+
 }
 
 
@@ -418,6 +438,10 @@ should open and close the topnav (.icon) */
   .author-text{
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .singleimg{
+    width: 60%;
   }
 }
 
