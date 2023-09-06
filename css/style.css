@@ -348,6 +348,45 @@ hr {
 background-color: #E1E9EE;
 }
 
+.show-more{
+  text-align: center;
+}
+
+
+.stack {
+  padding-bottom: 10px;
+}
+
+.content-center{
+  text-align: center;
+}
+
+.text-collapse{
+  background-color: rgb(59, 59, 59); /* #333 */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.active, .text-collapse:hover {
+  background-color: #555;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
 .leftcolumn, .rightcolumn, .midcolumn {   
