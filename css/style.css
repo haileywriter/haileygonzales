@@ -465,6 +465,11 @@ should open and close the topnav (.icon) */
   .big-header{
       font-size: 30px; 
   }
+
+  .sub-header{
+    font-size: 20px; 
+  }
+  
   
   .smaller-header{
       font-size: 25px; 
