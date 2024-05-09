@@ -263,6 +263,12 @@ padding-right: 200px;
   margin-bottom: 40px; 
 }
 
+.marr{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 40px; 
+}
+
 /* Clear floats after the columns */
 .row:after {
 content: "";
@@ -354,6 +360,12 @@ hr {
   padding-right: 200px;
 }
 
+.center-text{
+  padding-left: 200px;
+  padding-right: 200px;
+  display: inline-block;
+}
+
 .color{
 /* background-color: rgb(205, 231, 231); */
 background-color: #E1E9EE;
@@ -363,6 +375,10 @@ background-color: #E1E9EE;
   text-align: center;
 }
 
+
+.ext {
+  text-align: center;
+}
 
 .stack {
   padding-bottom: 10px;
@@ -436,6 +452,12 @@ background-color: #E1E9EE;
   padding-right: 40px;
 }
 
+.center-text{
+  padding-left: 40px;
+  padding-right: 40px;
+  display:inline-block;
+}
+
 .singleimg {
   width: 20%;
 }
@@ -445,6 +467,12 @@ background-color: #E1E9EE;
 @media screen and (max-width: 900px) {
   .singleimg{
     width: 40%;
+  }
+
+  .center-text{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: inline-block;
   }
 
 }
@@ -460,6 +488,18 @@ should open and close the topnav (.icon) */
   .topnav a.icon {
     float: right;
     display: block;
+  }
+
+  .marr{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px; 
+  }
+
+  .center-text{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: inline-block;
   }
 
   .big-header{
@@ -521,5 +561,11 @@ should open and close the topnav (.icon) */
     display: block;
     width: 100%;
     text-align: left;
+  }
+
+  .center-text{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: inline-block;
   }
 }
